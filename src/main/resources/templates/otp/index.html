@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/webjars/bootstrap/5.1.3/css/bootstrap.min.css">
+  <title>Title</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2 class="form-signin-heading">OTP Calculator</h2>
+    <form class="form-signin" method="POST" th:action="@{/otp/cal}">
+      <p>
+        <input type="text" id="secretkey" name="secretkey" class="form-control"
+               placeholder="Key" required autofocus>
+      </p>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

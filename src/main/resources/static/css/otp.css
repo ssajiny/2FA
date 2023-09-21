@@ -1,0 +1,7 @@
+#checkCode {
+
+}
+
+#progressBar {
+    transition: width 1s linear; /* width 속성에 1초 동안 부드러운 애니메이션 적용 */
+}
